@@ -1,8 +1,7 @@
 function reverse(str) {
-  let splitString = str.split("");
   let reverseString = "";
 
-  for (char of splitString) {
+  for (char of str) {
     reverseString = char + reverseString;
   }
 
